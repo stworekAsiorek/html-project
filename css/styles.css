@@ -1,0 +1,109 @@
+body{
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    height: auto;
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+
+nav{
+    background-color: #a2a2a2;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:hover{
+    font-weight: bolder;
+}
+
+li a{
+    text-decoration: none;
+    color: black ;
+    font-size: 2rem;
+}
+
+section{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+article{
+    flex:1;
+    background-color: #92c8c0;
+    padding: 20px;
+    border-radius: 10px;
+    align-content: justify;
+}
+
+#main_article{
+    background-image: url("../images/jungle_background.jpg");
+    font-weight: b;
+    color:#EDEFEE
+}
+
+#main_article > h1
+{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h1 + p{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+h2 + img{
+    width: 100%;
+    height: auto;
+    background-color: #EDEFEE;
+    border-radius: 10px;
+} 
+
+footer
+{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer p{
+    text-align: right;
+    border-top: 2px solid black;
+}
+
+footer img{
+    width: 50px;
+    height: auto
+}
